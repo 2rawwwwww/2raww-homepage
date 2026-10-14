@@ -2,18 +2,35 @@
    box-sizing:border-box;
 
 }
+ body {
+            /* 1. Specify the path to your image (local folder or online URL) */
+            background-image: url('images/il_570xN.1853847488_4h4u.webp');
 
+            /* 2. Prevent the image from repeating/tiling */
+            background-repeat: no-repeat;
+
+            /* 3. Scale the image to perfectly cover the entire screen */
+            background-size: cover;
+
+            /* 4. Keep the image centered on the page */
+            background-position: center;
+
+            /* 5. Keep the background fixed in place while scrolling */
+            background-attachment: fixed;
+        }
  img {
     max-width: 100%;
 }
 
 .responsive {
-    backround:grey
+    backround:grey;
     padding:20px;
     margin-bottom:10px;
     max-width:700px;
 }
-
+.red{
+ color:red;   
+}
 @media screen and (min-width:600px) {
  
 
